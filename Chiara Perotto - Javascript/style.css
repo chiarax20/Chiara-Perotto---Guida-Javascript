@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    line-height: 1.5;
+    text-align: center;
+    border-color: rgb(2, 8, 95);
+    background-image:url("icon/ven.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    overflow-x: hidden;
+    font-size: 70px;
+}
+.app-title
+{ 
+    padding: 2%;
+    color: whitesmoke;
+    text-shadow: -1px 0 #0a0a0c, 0 1px #0a0a0c, 1px 0 #0a0a0c, 0 -1px #0a0a0c;
+    background-color:  rgb(62, 120, 139, 0.5);
+}
+.notification
+{
+    color: rgb(244, 244, 248);
+    text-shadow: -1px 0 #0a0a0c, 0 1px #0a0a0c, 1px 0 #0a0a0c, 0 -1px #0a0a0c;
+}
+.inputValue
+{
+    color: snow;
+}
+.input
+{
+    padding: 5%;
+}
+.button
+{
+    cursor: pointer;
+    font-size: 50%;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: -1px 0 #0a0a0c, 0 1px #0a0a0c, 1px 0 #0a0a0c, 0 -1px #0a0a0c;
+    padding: 6px 12px; 
+    background: #27667a;
+    border-radius: 2px;
+}
+.button2
+{
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: -1px 0 #0a0a0c, 0 1px #0a0a0c, 1px 0 #0a0a0c, 0 -1px #0a0a0c;
+    padding: 4px 12px; 
+    font-size: 70%;
+    background: rgb(39, 102, 122);
+    border-radius: 2px;
+}
+.inputValue
+{ 
+    border-radius: 2px;
+    font-size: 60%;
+    font-weight: bold;
+    padding: 4px 12px; 
+    background: rgb(39, 102, 122,0.7); 
+    cursor: text;
+}
+.weather-container
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.box
+{
+    width: 500px;
+    color: whitesmoke;
+    text-shadow: -1px 0 #0a0a0c, 0 1px #0a0a0c, 1px 0 #0a0a0c, 0 -1px #0a0a0c;
+    margin: 20px;
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen  and (max-width: 1100px) {
+  .box
+    {
+        margin-left: 6%;
+        margin-right: 6%;
+        width: 100%;
+    }
+}
+.first
+{
+    background-color:  rgb(24, 88, 109, 0.5);
+}
+.second
+{
+    background-color:  rgb(60, 102, 116, 0.5);
+}
+.tempMin,
+.tempMax
+{
+    font-weight: lighter;
+}
+.third
+{
+    background-color: rgb(27, 96, 119, 0.5);
+}
+.fourth
+{
+    background-color: rgb(62, 120, 139, 0.5);
+}
+.endbarr
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 30%;
+    color: whitesmoke;
+    text-shadow: -1px 0 #0a0a0c, 0 1px #0a0a0c, 1px 0 #0a0a0c, 0 -1px #0a0a0c;
+    background-color:  rgb(62, 120, 139, 0.5);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.social img
+{
+  border: 5px solid rgb(222, 232, 235);
+  border-radius: 30px;
+  position: relative;
+}
+.social
+{
+    padding-top: 7px;
+}
+
+
+
